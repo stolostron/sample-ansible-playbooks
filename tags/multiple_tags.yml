@@ -1,0 +1,7 @@
+- name: Job tags sample
+  hosts: all
+  tasks:
+    - name: Hello Message
+      debug:
+        msg: "Hello World!"
+      tags: tag-1, tag-2
